@@ -1,0 +1,21 @@
+@media(max-width: 800px){
+    .img{
+        display: none;
+    }
+    #content{
+        margin-left: 0;
+    }
+
+}
+@media(max-width: 500px){
+.text{
+    font-size: 12px;
+}
+h1{
+    font-size: 45px;
+}
+#content{
+    margin-left: 0;
+    width: 350px;
+}
+}
