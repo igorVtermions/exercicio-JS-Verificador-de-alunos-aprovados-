@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/Graphicloads-100-Flat-2-Pen.ico" type="image/x-icon">
+    <title>Verificador de Media</title>
+</head>
+<body>
+    <div class="text">
+    <h1>Escola Fate</h1>
+        <h3>Verifique aqui sua nota e se foi aprovador</h3>
+    </div>
+    <div id="vision"></div>
+
+    <main class="container">
+
+        
+        
+        <figure class="img">
+            <img src="img/Education-rafiki.svg" alt="edutacion">
+        </figure>
+
+        <form id="content">
+            <label for="name">Nome do Aluno</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="reg">Sua matrícula</label>
+            <input type="text" name="reg" id="reg" required>
+
+            <label for="note">Média do Aluno</label>
+            <input type="text" name="note" id="note" required>
+            <input type="button" value="Enviar" id="btn" onclick="noteNotification ()">
+        </form> 
+       
+        
+    </main>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
